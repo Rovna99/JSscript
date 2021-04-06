@@ -1,10 +1,10 @@
 const body = document.querySelector("body");
 
-const IMG_NUMBER = 3;
+const IMG_NUMBER = 2;
 
 function paintImage(imgNumber) {
   const image = new Image();
-  image.src = `images/${imgNumber + 1}.PNG`;
+  image.src = `images/${imgNumber + 1}.JPG`;
   image.classList.add("bgImage");
   body.prepend(image);
 }
